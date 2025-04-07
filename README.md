@@ -9,6 +9,12 @@ This project demonstrates how to set up an MCP (Model Context Protocol) server a
 
 ## 🚀 Getting Started
 
+Clone this repo and run with:
+
+```bash
+cargo run
+```
+
 Start the MCP Inspector with:
 
 ```bash
