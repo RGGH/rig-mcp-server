@@ -1,5 +1,5 @@
 [![Rust](https://github.com/RGGH/rig-mcp-server/actions/workflows/rust.yml/badge.svg)](https://github.com/RGGH/rig-mcp-server/actions/workflows/rust.yml)
-# 🔍 MCP Inspector Example: SSE Transport with an Add Tool
+# 🔍 Rust MCP Server + Inspector Example: SSE Transport with an Add Tool
 
 credit : https://dev.to/joshmo_dev/using-model-context-protocol-with-rig-m7o
 
