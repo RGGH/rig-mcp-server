@@ -129,6 +129,7 @@ Connected MCP client to backing server transport
 Set up MCP proxy
 Received message for sessionId cdd4a8be-57e2-44e3-9b81-3df300e86f22
 ```
+![Screenshot from 2025-04-07 23-22-21](https://github.com/user-attachments/assets/741f033f-7a9e-4d03-bff8-b1547b49fd50)
 
 ---
 
