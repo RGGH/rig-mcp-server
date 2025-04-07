@@ -1,4 +1,3 @@
-Here’s your `README.md` content:
 
 ```markdown
 # 🔍 MCP Inspector Example: SSE Transport with an Add Tool
@@ -137,4 +136,3 @@ Received message for sessionId cdd4a8be-57e2-44e3-9b81-3df300e86f22
 Feel free to open an issue or start a discussion!
 ```
 
-You can copy this content directly into your `README.md` file. Let me know if you'd like to make any more adjustments!
