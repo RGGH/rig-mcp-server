@@ -1,6 +1,8 @@
 
 # 🔍 MCP Inspector Example: SSE Transport with an Add Tool
 
+credit : https://dev.to/joshmo_dev/using-model-context-protocol-with-rig-m7o
+
 This project demonstrates how to set up an MCP (Model Context Protocol) server and client using Server-Sent Events (SSE) for communication. It includes a simple tool that adds two numbers and integrates with the [RIG](https://github.com/modelcontext/rig) agent for LLM prompting.
 
 ---
