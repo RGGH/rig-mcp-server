@@ -15,7 +15,7 @@ Clone this repo and run with:
 cargo run
 ```
 
-Start the MCP Inspector with:
+In a separate terminal start the MCP Inspector with:
 
 ```bash
 npx @modelcontextprotocol/inspector sse http://127.0.0.1:3001/sse
