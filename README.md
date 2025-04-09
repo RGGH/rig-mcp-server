@@ -1,5 +1,5 @@
 [![Rust](https://github.com/RGGH/rig-mcp-server/actions/workflows/rust.yml/badge.svg)](https://github.com/RGGH/rig-mcp-server/actions/workflows/rust.yml)
-# 🔍 MCP Inspector Example: SSE Transport with an Add Tool
+# 🔍 Rust MCP Server + Inspector Example: SSE Transport with an Add Tool
 
 credit : https://dev.to/joshmo_dev/using-model-context-protocol-with-rig-m7o
 
@@ -9,7 +9,13 @@ This project demonstrates how to set up an MCP (Model Context Protocol) server a
 
 ## 🚀 Getting Started
 
-Start the MCP Inspector with:
+Clone this repo and run with:
+
+```bash
+cargo run
+```
+
+In a separate terminal start the MCP Inspector with:
 
 ```bash
 npx @modelcontextprotocol/inspector sse http://127.0.0.1:3001/sse
@@ -129,6 +135,7 @@ Connected MCP client to backing server transport
 Set up MCP proxy
 Received message for sessionId cdd4a8be-57e2-44e3-9b81-3df300e86f22
 ```
+![Screenshot from 2025-04-07 23-22-21](https://github.com/user-attachments/assets/741f033f-7a9e-4d03-bff8-b1547b49fd50)
 
 ---
 
