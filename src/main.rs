@@ -23,6 +23,15 @@ async fn add_tool(a: f64, b: f64) -> Result<ToolResponseContent> {
     Ok(tool_text_content!((a + b).to_string()))
 }
 
+#[tool(
+    name = "Sub",
+    description = "Subtract 2nd number from 1st",
+    params(a = "The first number", b = "The second number")
+)]
+async fn sub_tool(a: f64, b: f64) -> Result<ToolResponseContent> {
+    Ok(tool_text_content!((a -  b).to_string()))
+}
+
 #[tokio::main]
 async fn main()->Result<(), anyhow::Error>  {
     tracing_subscriber::fmt::init();
@@ -34,6 +43,7 @@ async fn main()->Result<(), anyhow::Error>  {
             ..Default::default()
         })
         .register_tool(AddTool::tool(), AddTool::call())
+        .register_tool(SubTool::tool(), SubTool::call())
         .build();
 
     let mcp_server_transport =
